@@ -4,6 +4,7 @@
 ```sh
 # arg 通过命令改变运行时参数
 docker build -t test --build-arg a=12
+docker run test
 ```
 
 # 禁用 Docker BuildKit
