@@ -1,0 +1,23 @@
+mysql:
+  addr: 120.53.250.139:3309
+  username: root
+  password: 203420Wrw
+  dbname: yarns
+
+
+redis:
+  addr: 120.53.250.139:6379
+  password: 203420Wrw
+  db: 9
+
+minio:
+  host: 122.51.11.251
+  port: 9100
+  secure: false
+  accessKey: minioadmin
+  secretAccessKey: minioadmin
+  bucketName: yarn-app
+  basePath: upload
+  multipart: false
+  advertisedhost: https://file.gonomad.cn
+  connectiontimeout: 10
